@@ -26,9 +26,6 @@ img {
   height: auto;
 }
 
-/*
- * Стили компонента App
- */
 .App {
   display: grid;
   grid-template-columns: 1fr;
@@ -36,9 +33,6 @@ img {
   padding-bottom: 24px;
 }
 
-/*
- * Стили компонента Searchbar
- */
 .Searchbar {
   top: 0;
   left: 0;
@@ -58,9 +52,6 @@ img {
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
 
-/*
- * Стили компонента SearchForm
- */
 .SearchForm {
   display: flex;
   align-items: center;
