@@ -43,8 +43,7 @@ export default function App() {
         setCurrentPage((prevPage) => prevPage + 1);
 
         if (images.length < 12) setNoImages(true);
-
-        scrollDown();
+        if (currentPage > 1) scrollDown();
       })
       .catch((error) => setError(error))
       .finally(() => setIsLoading(false));
